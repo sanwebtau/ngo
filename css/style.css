@@ -1,0 +1,154 @@
+/* *
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+html
+{
+    scroll-behavior: smooth;
+}
+.back-color
+{
+    background-color: rgb(236, 235, 235);
+    height: 1900px;
+}
+
+.scrollup
+{
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    right: 15px;
+    bottom: 35px;
+    display: none;
+       
+}
+
+#fasfa
+{
+    font-size: 40px;
+}
+
+.dropdown:hover .dropdown-menu
+{
+    display: block;
+}
+.dropdown-menu
+{
+    box-shadow: 0px 8px 16px 0px rgba(173, 15, 15, 0.2);
+    
+}
+.dropdown-menu a:hover
+{
+    color: rgb(13, 138, 255);
+    background-color: rgb(234, 255, 234);
+}
+.dropdown-menu:hover
+{
+    background-color: rgba(236, 214, 243, 0.432);
+}
+
+.topbar
+{
+    width: 100%;
+    height: 25px;
+    background-color: rgb(221, 246, 253);
+    
+}
+
+.scrollbelow
+{
+    animation: scrollbelowup 0.6s linear;
+    position: fixed;
+    top:0;
+    left: 0;
+    transition: 0.9s;
+    
+}
+
+@keyframes scrollbelowup
+{
+    0%{transform: translateY(-100%);}
+    
+}
+.imgec
+{
+    width: 120px;
+    height: 120px;
+    
+}
+.imgem
+{
+    margin: 0 5px 0 5px;
+    width: 118px;
+   
+}
+
+.imgsan
+{
+    width: 180px;
+    height: 180px;
+}
+.logodsdc
+{
+    width: 85px;
+    height: 60px;
+    
+}
+.imgdonate
+{
+    width: 85px;
+    height: 85px;
+    object-fit: cover;
+    justify-content: space-around;
+}
+
+.tabspanel
+{
+    text-align: justify;
+}
+
+.blink h5 {
+    animation: blink-animation 1s linear infinite;
+    -webkit-animation: blink-animation 1s steps(5, start) infinite;
+    color: red;
+    
+  }
+  @keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+  @-webkit-keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+
+  
+  /* Registration form */
+  .reg
+  {
+      margin: 10px;
+      border-radius: 5px;
+  }
+  .flexreg
+  {
+      display: flex;
+      justify-content:space-around;
+      text-align: center;
+  }
+  .textcolor li a
+
+  {
+      color: #ffff;
+      font-size: 18px;
+    
+  }
+  .textcolor a:hover
+  {
+      color: red;
+      
+  }
+  
